@@ -1,0 +1,43 @@
+# Como criar um Repositório 
+
+1. No Console do GCP, abra o Cloud Source Repositories.
+
+   [Abrir o Cloud Source Repositories](https://source.cloud.google.com/repos?hl=pt-br)
+
+2. Clique em **Adicionar repositório**.
+
+   A página **Adicionar um repositório** é aberta.
+
+3. Selecione **Criar novo repositório** e clique em **Continuar**.
+
+   A página **Criar novo repositório** é aberta.
+
+4. No campo **Nome do repositório**, digite um nome para o novo repositório. Os nomes `All-Users` e `All-Projects` são restritos e não podem ser usados.
+
+5. Na lista suspensa **Projeto**, selecione o projeto do Google Cloud que contém o repositório.
+
+   Para [criar um novo projeto do Google Cloud](https://cloud.google.com/source-repositories/docs/creating-an-empty-repository?hl=pt-br#create_a_project), clique em **Criar projeto**.
+
+6. Clique em **Criar**.
+
+   Seu repositório é criado e a página **Adicionar código ao seu repositório** é aberta. Nessa página, há instruções sobre como [clonar o repositório em sua máquina local](https://cloud.google.com/source-repositories/docs/cloning-repositories?hl=pt-br) ou [enviar o código de um repositório atual](https://cloud.google.com/source-repositories/docs/pushing-code-from-a-repository?hl=pt-br) com base no seu tipo de autenticação.
+
+## Crie um projeto
+
+É necessário que todos os repositórios pertençam a um projeto do Google Cloud. Se você não tiver um projeto do Google Cloud, crie um seguindo estas etapas.
+
+1. Na [página](https://cloud.google.com/source-repositories/docs/creating-an-empty-repository?hl=pt-br#create_a_new_repository) **Criar novo repositório**, clique em **Criar projeto**.
+
+   A caixa de diálogo **Criar um projeto do Google Cloud** é aberta.
+
+2. No campo **Nome do projeto**, digite um nome para o projeto do Google Cloud.
+
+3. No campo **ID do projeto**, aceite o ID do projeto gerado ou clique em **Editar ID do projeto** para inserir outro.
+
+   **Observação**:o ID do projeto do Google Cloud precisa ser exclusivo em todo o Google Cloud.
+
+4. Na lista suspensa **Conta de faturamento**, selecione uma conta de faturamento.
+
+   Para criá-la, clique em **Criar conta de faturamento**.
+
+5. Clique em **Criar**.
